@@ -1,0 +1,5 @@
+192.0.2.1 test01.example
+2001:db8::1 test01.example
+
+192.0.2.2 test02.example
+2001:db8::1 test02.example

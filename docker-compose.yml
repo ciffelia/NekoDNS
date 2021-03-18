@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  coredns:
+    image: coredns/coredns
+    restart: always
+    volumes:
+      - ./Corefile:/Corefile:ro
+      - ./hosts:/hosts:ro
+    ports:
+      - '53:53'
+      - '53:53/udp'
