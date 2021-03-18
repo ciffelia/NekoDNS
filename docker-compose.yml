@@ -2,7 +2,7 @@ version: '3'
 
 services:
   coredns:
-    image: coredns/coredns
+    image: coredns/coredns:1.8.3
     restart: always
     volumes:
       - ./Corefile:/Corefile:ro
